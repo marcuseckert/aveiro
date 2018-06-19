@@ -1,13 +1,14 @@
 # aveiro
 
-# Get started:
+### Get started
 Skeleton.swift
 
-Example:
+### Example
 ExampleCircleLine.swift
 
-ViewController.swift: Switch between Skeleton.swift and ExampleCircleLine.swift
+### ViewController.swift:
+Switch between Skeleton.swift and ExampleCircleLine.swift
 
-# Videos:
+### Videos:
 Resources/targetA.mov
 Resources/targetB.mov
