@@ -12,7 +12,12 @@ import UIKit
 class ExampleCircleLine: UIView {
     
     //Show the parent objects
-    private let rotationVisible = false
+    private var rotationVisible = false {
+        didSet {
+            self.objectA.backgroundColor = rotationVisible ? Colors.blue : .clear
+            self.objectB.backgroundColor = rotationVisible ? Colors.blue : .clear
+        }
+    }
     
     private lazy var objectA: UIView = {
         let v = makeTestView()
